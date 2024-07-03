@@ -6,8 +6,7 @@
   "scripts": {
     "start": "webpack serve --config webpack/webpack.config.js --env env=dev",
     "build": "webpack --config webpack/webpack.config.js --env env=prod",
-    "lint": "eslint . --ext .ts,.tsx --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint . --ext .ts,.tsx --fix"
   },
   "author": "",
   "license": "ISC",
